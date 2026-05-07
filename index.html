@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Happy Mamadag!!!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="greeting">Happy Mamadag!!!</h1>
+
+      <button
+        id="presentBtn"
+        class="present-btn"
+        aria-expanded="false"
+        aria-controls="reveal"
+      >
+        <!-- Use user's present SVG file (keeps a decorative image inside the button) -->
+        <img
+          src="assets/present.svg"
+          class="present-svg"
+          aria-hidden="true"
+          alt=""
+        />
+        <span class="sr-only">Open present</span>
+      </button>
+
+      <div id="reveal" class="reveal" hidden>
+        <p class="message">Bon om naar holy smoke te gaan!!!🎉</p>
+        <img src="assets/cake.gif" alt="Birthday cake" class="reveal-image" />
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
