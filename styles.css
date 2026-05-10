@@ -11,17 +11,16 @@
 html,
 body {
   height: 100%;
-  overflow: hidden;
 }
-/* disable page scroll and make background cover full dynamic viewport height */
 html,
 body {
   min-height: 100dvh; /* ensure background covers dynamic viewport (mobile address bar areas) */
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
   background: linear-gradient(180deg, #fff 0%, #fff7f2 100%);
   color: var(--contrast);
   -webkit-font-smoothing: antialiased;
@@ -61,7 +60,9 @@ body {
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   transform-origin: center;
-  transition: transform 300ms ease, box-shadow 250ms ease;
+  transition:
+    transform 300ms ease,
+    box-shadow 250ms ease;
   padding: 12px;
 }
 .present-btn:active {
